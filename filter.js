@@ -18,7 +18,7 @@
         const limit = parseFloat(document.getElementById('maxP').value);
         
         // IMPORTANT: Change '.price' and '.buy-btn' to the real site classes
-        const priceTag = document.querySelector('.payimg.x-row.x-row-middle.ml10-); 
+        const priceTag = document.querySelector('.payimg.x-row.x-row-middle.ml10); 
         const buyBtn = document.querySelector('.button.van-button.van-button--primary.van-butto n--normal.van-button-block.van-button-round.b tn.x-btn');
 
         if (priceTag && buyBtn) {
